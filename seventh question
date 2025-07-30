@@ -1,0 +1,21 @@
+List<Student> Searchbyletter(List<student>student,char letter)
+{
+   List<student> result = new List<student>();
+
+   int i = 0;
+
+   while (i <student.Count){
+
+   if(student[i].Name.Startswith(letter.tostring()))
+   {
+      result.Add(Student[i]);
+
+    }
+    i++;
+
+    return result ;
+
+    }
+
+    
+   
