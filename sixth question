@@ -11,8 +11,8 @@ for(int j=i+1;i<student.Count-1;i++){
  student[i] = student[j];
  student[j] = temp;
  }
- j++;}
- i++;
+ }
+ ;
  }
  }
  }
