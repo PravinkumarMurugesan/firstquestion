@@ -1,41 +1,24 @@
-class Student {
-
-public int id { get;set;}
-
-public string name {get;set}
-
-public int Age {get;set}
-}
-
-void addStudent (List student,student newstudent)
+void printallstudent (List<student> students)
 
 {
-
-   int i =0;
-   int duplicate =0;
-while ( i < student.Count)
-{
-if (student.Count[id].Id ==newStudent.Id)
-{
-
-   duplicate=1;
-}
-i++;
-
-if(duplicate== 0)
-
-{
-student.Add(newStudent);
-
-Console.WriteLine("Student added");
+for (int i=0;i< students.count;i++){
+Console.WriteLine("id :"+ students[i].Id +"Name :"+student[i].Name + "Age : "+student[i].Age);
 
 }
+}
 
-else
+get student whose ahe is aboce 20 
+
+List<student> getstudent (List<student> students)
 {
 
-Console.WriteLine("Duplicate ID,Not added.");
+  List<student>result = new List student>();
+  for (int i=0;i< students.count;i++){
+   if (student[i].age >20){
+result.Add(student[i]);
+}
+}return result;
 
 }
-}
-}
+
+
