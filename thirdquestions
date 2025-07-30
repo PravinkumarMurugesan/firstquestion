@@ -3,10 +3,11 @@ Update students ;
 
 void update(list<Student>student,int id ,string newName ,int newAge){
 
-int i = 0;
+
 int found =0;
 
-while (i<student.Count){
+for(int i =0 ;i<students.Count ; i++)
+{
 
 if(student [i] .Id == id){
 
@@ -15,7 +16,6 @@ student.[i].Age = newAge;
 fount=1;
 Console.Writeline("student updated ");
 
-i++;
 }
 
 if (found==0){
