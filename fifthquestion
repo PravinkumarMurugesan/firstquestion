@@ -8,9 +8,8 @@ void findstudents (List <student> students)
 student youngest = students[0];
 student oldest = studetn[0];
 
-int i=1;
 
-while (i<student.Count )
+for9int i =0;i<student.Count;i++)
 {
 if (student[i] .Age < youmgest.Age)
 {
@@ -22,7 +21,7 @@ if (student[i] .Age < youmgest.Age)
 
  oldest = student [i];
  }
- i++
+ 
  }
  Console.WriteLine ("Youngest :" + youngest.Name +", Age : " +youngest.Age);
 
