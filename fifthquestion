@@ -1,0 +1,31 @@
+void findstudents (List <student> students)
+ {
+ if (students.Count ==0){
+ Console.writeLine("No students .");
+  return;
+
+}
+student youngest = students[0];
+student oldest = studetn[0];
+
+int i=1;
+
+while (i<student.Count )
+{
+if (student[i] .Age < youmgest.Age)
+{
+ youngest = students[i];
+
+ }
+
+ if 9student[i].Age >oldest .Age){
+
+ oldest = student [i];
+ }
+ i++
+ }
+ Console.WriteLine ("Youngest :" + youngest.Name +", Age : " +youngest.Age);
+
+ Console.writeLine("oldest ; " + oldest.Name + " , Age : " + oldest.Age);
+
+ }
