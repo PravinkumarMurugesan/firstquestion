@@ -1,0 +1,35 @@
+Albhabestically by name;
+
+void sortbyname(List<student> students){
+
+for(int i=0;i<student.Count-1;i++){
+for(int j=i+1;i<student.Count-1;i++){
+
+ if (String .Compare(student[i].Name,student[j}.Name)>0)
+
+ student temp = student[i];
+ student[i] = student[j];
+ student[j] = temp;
+ }
+ j++;}
+ i++;
+ }
+ }
+ }
+
+
+
+ Descending order
+ 
+ void sortbyname(List<student> students){
+
+for(int i=0;i<student.Count-1;i++){
+for(int j=i+1;i<student.Count-1;i++){
+
+ student temp = student[i];
+ student[i] = student[j];
+ student[j] = temp;
+ }
+ }
+ }
+ }
