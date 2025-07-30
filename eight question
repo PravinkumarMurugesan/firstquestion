@@ -1,0 +1,19 @@
+void groupbyage (List<student>students0{
+
+List<int> processageAges = new List <int>();
+
+ for (int i =0;i<students.Count;i++)[
+
+ int age = students[i].Age;
+ int alreadyprocessed = 0;
+
+ for ( int j = 0;j<alreadyprocessed.Count;j+=){
+
+ if (processAges[j] == age ){
+ alreadytProcess =1;
+ }
+
+ if(already processed == 0){
+ int count = 0;
+
+  for ( int k = 0;k<students.Count;j+=)
