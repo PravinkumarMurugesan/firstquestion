@@ -1,0 +1,24 @@
+void update(list<Student>student,int id ,string newName ,int newAge){
+
+int i = 0;
+int found =0;
+
+while (i<student.Count){
+
+if(student [i] .Id == id){
+
+student[i].Name = newName;
+student.[i].Age = newAge;
+fount=1;
+Console.Writeline("student updated ");
+
+i++;
+}
+
+if (found==0){
+
+Console.writeline ("student not updated)
+
+}
+}
+}
